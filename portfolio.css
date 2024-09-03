@@ -1,0 +1,7 @@
+/* CABEÇALHO */
+.container-fluid{
+    background-color: #1E1E1E;
+    height: 10vh;
+    margin-top: -8px;
+    z-index: 2;
+}
