@@ -4,4 +4,23 @@
     height: 10vh;
     margin-top: -8px;
     z-index: 2;
+    width: 100%;
+}
+
+#vaca{
+  height: 90%;
+  width: 7%;
+}
+
+#cabeçalho{
+  color: #DBD1BD;
+}
+
+/* SOBRE MIM */
+#containerafa{
+  background-color: #F6EEE1;
+}
+
+#dev{
+  color: #EE5765;
 }
