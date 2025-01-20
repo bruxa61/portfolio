@@ -1,5 +1,5 @@
 # portfólio
-Conheça meus projetos :)
+Conheça sobre meus projetos :)
 
 Acesse: https://bruxa61.github.io/portfolio/
 
