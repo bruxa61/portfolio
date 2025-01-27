@@ -95,7 +95,7 @@ section.parte1 {
 section.parte1 .flex {
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 150px;
 }
 
 .parte1 h1 {
@@ -115,9 +115,10 @@ section.parte1 .flex {
     margin: 20px 0;
     font-weight: 440;
     font-size: 20px;
+    text-align: justify;
 }
 
-.curriculo button{
+.curriculo button {
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 500;
@@ -142,11 +143,12 @@ section.parte1 .flex {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
@@ -179,11 +181,12 @@ section.parte1 .flex {
 
 .habilidades ul {
     list-style-type: none;
+    text-align: justify;
 }
 
 .habilidades ul li {
-    padding: 7px 10%;
-    font-size: 18px;
+    padding: 10px 10%;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -351,43 +354,43 @@ button #direita {
     margin-left: 110px;
 }
 
-.certificados{
+.certificados {
     position: relative;
 }
 
-.certificados img{
+.certificados img {
     height: auto;
     width: 105%;
     padding: 30px;
     margin-left: 55px;
 }
 
-.certificados .pastas img{
+.certificados .pastas img {
     position: absolute;
     height: auto;
     width: 33%;
 }
 
-.certificados .pastas img:hover{
+.certificados .pastas img:hover {
     transform: scale(1.05);
 }
 
-.pastas #certfCLOUD{
+.pastas #certfCLOUD {
     top: 190px;
     left: 30px;
 }
 
-.pastas #certfAWS{
+.pastas #certfAWS {
     top: 190px;
     left: 250px;
 }
 
-.pastas #certfCISCO{
+.pastas #certfCISCO {
     top: 190px;
     left: 480px;
 }
 
-.pastas #certfSENAI{
+.pastas #certfSENAI {
     top: 370px;
     left: 30px;
 }
@@ -403,7 +406,7 @@ button #direita {
     position: relative;
 }
 
-.contato h1{
+.contato h1 {
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -412,44 +415,44 @@ button #direita {
     margin-top: 40px;
 }
 
-.contato .icons img{
+.contato .icons img {
     position: absolute;
     height: auto;
     width: 7%;
 }
 
-.contato .icons img:hover{
+.contato .icons img:hover {
     transform: scale(1.1);
 }
 
-.icons #email{
+.icons #email {
     top: 110px;
     left: 250px;
 }
 
-.icons #whatsapp{
+.icons #whatsapp {
     top: 175px;
     left: 242px;
     width: 10%;
 }
 
-.icons #insta{
+.icons #insta {
     top: 250px;
     left: 250px;
 }
 
-.icons #linkedin{
+.icons #linkedin {
     top: 325px;
     left: 250px;
 }
 
-.icons #github{
+.icons #github {
     top: 395px;
     left: 247px;
     width: 8%;
 }
 
-.icons #emailRAFA{
+.icons #emailRAFA {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -458,7 +461,7 @@ button #direita {
     font-size: 23px;
 }
 
-.icons #whatsappRAFA{
+.icons #whatsappRAFA {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -467,7 +470,7 @@ button #direita {
     font-size: 23px;
 }
 
-.icons #instaRAFA{
+.icons #instaRAFA {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -476,7 +479,7 @@ button #direita {
     font-size: 23px;
 }
 
-.icons #linkedinRAFA{
+.icons #linkedinRAFA {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -485,7 +488,7 @@ button #direita {
     font-size: 23px;
 }
 
-.icons #githubRAFA{
+.icons #githubRAFA {
     position: absolute;
     text-decoration: none;
     color: black;
@@ -495,7 +498,7 @@ button #direita {
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color: #1E1E1E;
     color: #DBD1BD;
     display: flex;
@@ -509,8 +512,8 @@ footer{
 }
 
 /* MEU MONITORZINHO */
-@media (max-width: 1400px){
-    section.parte1{
+@media (max-width: 1400px) {
+    section.parte1 {
         padding: 160px 4%;
     }
 
@@ -549,54 +552,54 @@ footer{
         position: relative;
     }
 
-    .pastas #certfCLOUD{
+    .pastas #certfCLOUD {
         top: 170px;
         left: 30px;
     }
-    
-    .pastas #certfAWS{
+
+    .pastas #certfAWS {
         top: 170px;
         left: 220px;
     }
-    
-    .pastas #certfCISCO{
+
+    .pastas #certfCISCO {
         top: 170px;
         left: 410px;
     }
-    
-    .pastas #certfSENAI{
+
+    .pastas #certfSENAI {
         top: 330px;
         left: 30px;
     }
 
-    .icons #email{
+    .icons #email {
         top: 110px;
         left: 140px;
     }
-    
-    .icons #whatsapp{
+
+    .icons #whatsapp {
         top: 165px;
         left: 132px;
         width: 10%;
     }
-    
-    .icons #insta{
+
+    .icons #insta {
         top: 230px;
         left: 140px;
     }
-    
-    .icons #linkedin{
+
+    .icons #linkedin {
         top: 295px;
         left: 140px;
     }
-    
-    .icons #github{
+
+    .icons #github {
         top: 355px;
         left: 137px;
         width: 8%;
     }
-    
-    .icons #emailRAFA{
+
+    .icons #emailRAFA {
         position: absolute;
         text-decoration: none;
         color: black;
@@ -604,8 +607,8 @@ footer{
         left: 195px;
         font-size: 20px;
     }
-    
-    .icons #whatsappRAFA{
+
+    .icons #whatsappRAFA {
         position: absolute;
         text-decoration: none;
         color: black;
@@ -613,8 +616,8 @@ footer{
         left: 195px;
         font-size: 20px;
     }
-    
-    .icons #instaRAFA{
+
+    .icons #instaRAFA {
         position: absolute;
         text-decoration: none;
         color: black;
@@ -622,8 +625,8 @@ footer{
         left: 195px;
         font-size: 20px;
     }
-    
-    .icons #linkedinRAFA{
+
+    .icons #linkedinRAFA {
         position: absolute;
         text-decoration: none;
         color: black;
@@ -631,8 +634,8 @@ footer{
         left: 195px;
         font-size: 20px;
     }
-    
-    .icons #githubRAFA{
+
+    .icons #githubRAFA {
         position: absolute;
         text-decoration: none;
         color: black;
@@ -644,425 +647,790 @@ footer{
 
 /* Tablets (até 1023px) */
 @media (max-width: 1023px) {
-   /* CABEÇALHO */
+    /* CABEÇALHO */
 
 
-header .btn-contato button {
-    padding: 9px 25px;
-    font-size: 18px;
+    header .btn-contato button {
+        padding: 9px 25px;
+        font-size: 18px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: auto;
+    }
+
+    /* PARTE 01 */
+    section.parte1 {
+        padding: 70px 4%;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .parte1 h1 {
+        color: black;
+        font-size: 46px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+
+    .parte1 h2 {
+        color: #EE5765;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .topo p {
+        color: black;
+        margin: 20px 0;
+        font-weight: 440;
+        font-size: 18px;
+    }
+
+    .curriculo button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #FBB620;
+        border: 0;
+        cursor: pointer;
+        transition: .2s;
+        height: 45px;
+    }
+
+    .rafita img {
+        margin: 0px 0;
+        width: 380px;
+        left: 20px;
+        height: auto;
+        position: relative;
+        animation: flutuar 2s ease-in-out infinite alternate;
+    }
+
+    /* PARTE 02 */
+    .parte2 {
+        display: inline-block;
+        justify-content: center;
+        align-items: flex-start;
+        /* Alinha no topo */
+        padding: 80px 0px;
+        /* Adiciona um padding para melhor visualização */
+        background-color: #1E1E1E;
+    }
+
+    .habilidades {
+        width: 65%;
+        height: 440px;
+        background-color: #FBB620;
+        box-shadow: 14px 14px 0 #9c6c05;
+        margin-left: 170px;
+    }
+
+    .habilidades h1 {
+        font-weight: 450;
+        font-size: 30px;
+        margin-top: 0px;
+        padding: 22px 34%;
+    }
+
+    .habilidades ul {
+        list-style-type: none;
+    }
+
+    .habilidades ul li {
+        padding: 6px 10%;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    /* CARROSEL */
+    .ferramentas {
+        width: 60%;
+        height: 170px;
+        padding: 0px 0%;
+        margin: 100px;
+    }
+
+    .ferramentas h1 {
+        font-weight: 450;
+        font-size: 30px;
+        padding: 40px 47%;
+        margin-top: -60px;
+        color: #DBD1BD;
+    }
+
+    .carousel-container {
+        width: 100%;
+        /* O carrossel ocupa toda a largura disponível para ele */
+        height: 150px;
+        /* Define uma altura fixa para o carrossel */
+        overflow: hidden;
+        position: relative;
+        margin-top: 20px;
+        /* Adiciona uma margem superior */
+        left: 100px;
+
+    }
+
+
+    .carousel-items {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 435%;
+        /* 3x a largura do contêiner para 3 slides.  Ajuste conforme necessário.*/
+    }
+
+    .carousel-item {
+        width: calc(100% / 3);
+        /* Cada item ocupa 1/3 da largura do carrossel. Ajuste o denominador de acordo com a quantidade de slides.*/
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* Para empilhar imagem e legenda */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* Centraliza o texto da legenda */
+    }
+
+    .carousel-item img {
+        width: 40%;
+        /* Impede que a imagem ultrapasse o tamanho do item */
+        height: auto;
+        margin-bottom: 10px;
+        /* Espaço entre a imagem e a legenda */
+    }
+
+
+    .carousel-item p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #DBD1BD;
+    }
+
+    .carousel-control {
+        position: absolute;
+        top: 30%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .carousel-control:hover {
+        transform: scale(1.2);
+    }
+
+    button #esquerda {
+        height: auto;
+        width: 4vh;
+    }
+
+    button #direita {
+        height: auto;
+        width: 4vh;
+    }
+
+    .prev {
+        left: 5px;
+    }
+
+    .next {
+        right: 5px;
+    }
+
+    /* PARTE 03 */
+    .parte3 .TITULO {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px 0%;
+    }
+
+    .parte3 .TITULO h1 {
+        font-weight: 450;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .projetos1 {
+        display: inline-block;
+        justify-content: center;
+        margin: 20%;
+        margin-top: 10px;
+    }
+
+    .projetos1 img {
+        height: auto;
+        width: 110vh;
+        padding: 20px;
+    }
+
+    .projetos1 img:hover {
+        transform: scale(1.01);
+    }
+
+    .projetos2 {
+        display: inline-block;
+        justify-content: center;
+        margin: 20%;
+        margin-top: -200px;
+    }
+
+    .projetos2 img {
+        height: auto;
+        width: 110vh;
+        padding: 20px;
+    }
+
+    .projetos2 img:hover {
+        transform: scale(1.01);
+    }
+
+    /* PARTE 04 */
+    .parte4 {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 30px 0px;
+        background-color: #FF7B89;
+    }
+
+    .certificados h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 0px 19%;
+        color: #F6EEE1;
+        margin-left: 10px;
+    }
+
+    .certificados {
+        position: relative;
+    }
+
+    .certificados img {
+        height: auto;
+        width: 70%;
+        padding: 30px;
+        margin-left: 10px;
+    }
+
+    .certificados .pastas img {
+        position: absolute;
+        height: auto;
+        width: 23%;
+    }
+
+    .certificados .pastas img:hover {
+        transform: scale(1.05);
+    }
+
+    .pastas #certfCLOUD {
+        top: 140px;
+        left: 20px;
+    }
+
+    .pastas #certfAWS {
+        top: 140px;
+        left: 155px;
+    }
+
+    .pastas #certfCISCO {
+        top: 140px;
+        left: 290px;
+    }
+
+    .pastas #certfSENAI {
+        top: 260px;
+        left: 20px;
+    }
+
+    .contato {
+        background-color: #FBB620;
+        width: 75vh;
+        height: 65vh;
+        margin-top: 80px;
+        margin-left: -100px;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        position: relative;
+    }
+
+    .contato h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+
+    .contato .icons img {
+        position: absolute;
+        height: auto;
+        width: 7%;
+    }
+
+    .contato .icons img:hover {
+        transform: scale(1.1);
+    }
+
+    .icons #email {
+        top: 100px;
+        left: 100px;
+    }
+
+    .icons #whatsapp {
+        top: 137px;
+        left: 95px;
+        width: 10%;
+    }
+
+    .icons #insta {
+        top: 185px;
+        left: 100px;
+    }
+
+    .icons #linkedin {
+        top: 230px;
+        left: 100px;
+    }
+
+    .icons #github {
+        top: 275px;
+        left: 99px;
+        width: 8%;
+    }
+
+    .icons #emailRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 100px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #whatsappRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 140px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #instaRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 187px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #linkedinRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 233px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #githubRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 280px;
+        left: 142px;
+        font-size: 18px;
+    }
+
+    /* FOOTER */
+    footer {
+        background-color: #1E1E1E;
+        color: #DBD1BD;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 500;
+        height: auto;
+        justify-content: center;
+        padding: 1rem 0;
+        text-align: center;
+        width: 100%;
+    }
 }
 
-.logo img {
-    width: 60px;
-    height: auto;
-}
+/* PARA TABLET (vertical) */
+@media (max-width: 768px) {
+ /* PARTE 01 */
+    section.parte1 {
+        padding: 70px 4%;
+    }
 
-/* PARTE 01 */
-section.parte1 {
-    padding: 70px 4%;
-}
+    .flex {
+        flex-direction: column-reverse;
+    }
 
-.flex {
-    display: flex;
-}
+    .parte1 h1 {
+        color: black;
+        font-size: 46px;
+        font-weight: 800;
+        margin-top: -40px;
+    }
 
-.parte1 h1 {
-    color: black;
-    font-size: 46px;
-    font-weight: 500;
-    margin-top: 40px;
-}
+    .parte1 h2 {
+        color: #EE5765;
+        font-size: 22px;
+        font-weight: 500;
+    }
 
-.parte1 h2 {
-    color: #EE5765;
-    font-size: 22px;
-    font-weight: 500;
-}
+    .topo p {
+        color: black;
+        margin: 20px 0;
+        font-weight: 440;
+        font-size: 18px;
+        text-align: justify;
+    }
 
-.topo p {
-    color: black;
-    margin: 20px 0;
-    font-weight: 440;
-    font-size: 18px;
-}
+    .curriculo button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #FBB620;
+        border: 0;
+        cursor: pointer;
+        transition: .2s;
+        height: 55px;
+    }
 
-.curriculo button{
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #FBB620;
-    border: 0;
-    cursor: pointer;
-    transition: .2s;
-    height: 45px;
-}
+    .rafita img {
+        margin: 0px 0;
+        width: 460px;
+        left: -30px;
+        height: auto;
+        position: relative;
+        animation: flutuar 2s ease-in-out infinite alternate;
+    }
 
-.rafita img {
-    margin: 0px 0;
-    width: 380px;
-    left: 20px;
-    height: auto;
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-}
+    /* PARTE 02 */
+    .parte2 {
+        display: inline-block;
+        justify-content: center;
+        align-items: flex-start;
+        /* Alinha no topo */
+        padding: 80px 0px;
+        /* Adiciona um padding para melhor visualização */
+        background-color: #1E1E1E;
+        width: 768px;
+    }
+    
+   .habilidades {
+        width: 65%;
+        height: 485px;
+        background-color: #FBB620;
+        box-shadow: 14px 14px 0 #9c6c05;
+        margin-left: 120px;
+    }
 
-/* PARTE 02 */
-.parte2 {
-    display: inline-block;
-    justify-content: center;
-    align-items: flex-start;
-    /* Alinha no topo */
-    padding: 80px 0px;
-    /* Adiciona um padding para melhor visualização */
-    background-color: #1E1E1E;
-}
+    .habilidades h1 {
+        font-weight: 450;
+        font-size: 30px;
+        margin-top: 0px;
+        padding: 22px 28%;
+    }
 
-.habilidades {
-    width: 65%;
-    height: 440px;
-    background-color: #FBB620;
-    box-shadow: 14px 14px 0 #9c6c05;
-    margin-left: 170px;
-}
+    .habilidades ul li {
+        padding: 6px 10%;
+        font-size: 19px;
+        font-weight: 400;
+    }
 
-.habilidades h1 {
-    font-weight: 450;
-    font-size: 30px;
-    margin-top: 0px;
-    padding: 22px 34%;
-}
+    /* CARROSEL */
+    .ferramentas {
+        width: 60%;
+        height: 170px;
+        padding: 10px 0%;
+        margin: 40px;
+    }
 
-.habilidades ul {
-    list-style-type: none;
-}
+    .ferramentas h1 {
+        font-weight: 450;
+        font-size: 30px;
+        padding: 40px 47%;
+        margin-top: -30px;
+        color: #DBD1BD;
+    }
 
-.habilidades ul li {
-    padding: 6px 10%;
-    font-size: 19px;
-    font-weight: 400;
-}
+    .carousel-container {
+        width: 100%;
+        /* O carrossel ocupa toda a largura disponível para ele */
+        height: 150px;
+        /* Define uma altura fixa para o carrossel */
+        overflow: hidden;
+        position: relative;
+        margin-top: 0px;
+        /* Adiciona uma margem superior */
+        left: 100px;
 
-/* CARROSEL */
-.ferramentas {
-    width: 60%;
-    height: 170px;
-    padding: 0px 0%;
-    margin: 100px;
-}
-
-.ferramentas h1 {
-    font-weight: 450;
-    font-size: 30px;
-    padding: 40px 47%;
-    margin-top: -60px;
-    color: #DBD1BD;
-}
-
-.carousel-container {
-    width: 100%;
-    /* O carrossel ocupa toda a largura disponível para ele */
-    height: 150px;
-    /* Define uma altura fixa para o carrossel */
-    overflow: hidden;
-    position: relative;
-    margin-top: 20px;
-    /* Adiciona uma margem superior */
-    left: 100px;
-
-}
+    }
 
 
-.carousel-items {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 435%;
-    /* 3x a largura do contêiner para 3 slides.  Ajuste conforme necessário.*/
-}
+    .carousel-items {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 435%;
+        /* 3x a largura do contêiner para 3 slides.  Ajuste conforme necessário.*/
+    }
 
-.carousel-item {
-    width: calc(100% / 3);
-    /* Cada item ocupa 1/3 da largura do carrossel. Ajuste o denominador de acordo com a quantidade de slides.*/
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    /* Para empilhar imagem e legenda */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* Centraliza o texto da legenda */
-}
+    .carousel-item {
+        width: calc(100% / 3);
+        /* Cada item ocupa 1/3 da largura do carrossel. Ajuste o denominador de acordo com a quantidade de slides.*/
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* Para empilhar imagem e legenda */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* Centraliza o texto da legenda */
+    }
 
-.carousel-item img {
-    width: 40%;
-    /* Impede que a imagem ultrapasse o tamanho do item */
-    height: auto;
-    margin-bottom: 10px;
-    /* Espaço entre a imagem e a legenda */
-}
+    .carousel-item img {
+        width: 40%;
+        /* Impede que a imagem ultrapasse o tamanho do item */
+        height: auto;
+        margin-bottom: 10px;
+        /* Espaço entre a imagem e a legenda */
+    }
 
 
-.carousel-item p {
-    font-size: 16px;
-    font-weight: 500;
-    color: #DBD1BD;
-}
+    .carousel-item p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #DBD1BD;
+    }
 
-.carousel-control {
-    position: absolute;
-    top: 30%;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
+    .carousel-control {
+        position: absolute;
+        top: 0%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
 
-.carousel-control:hover {
-    transform: scale(1.2);
-}
+    .carousel-control:hover {
+        transform: scale(1.2);
+    }
 
-button #esquerda {
-    height: auto;
-    width: 4vh;
-}
+    button #esquerda {
+        height: auto;
+        width: 3.4vh;
+        margin-top: 5px;
+    }
 
-button #direita {
-    height: auto;
-    width: 4vh;
-}
+    button #direita {
+        height: auto;
+        width: 4vh;
+    }
 
-.prev {
-    left: 5px;
-}
+    .prev {
+        left: 5px;
+    }
 
-.next {
-    right: 5px;
-}
+    .next {
+        right: 5px;
+    }
 
-/* PARTE 03 */
-.parte3 .TITULO {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px 0%;
-}
+    /* PARTE 03 */
+    .projetos1 {
+        display: inline-block;
+        justify-content: center;
+        margin: 10%;
+        margin-top: 10px;
+    }
 
-.parte3 .TITULO h1 {
-    font-weight: 450;
-    font-size: 30px;
-    margin-top: 20px;
-}
+    .projetos1 img {
+        height: auto;
+        width: 70vh;
+        padding: 20px;
+    }
 
-.projetos1 {
-    display: inline-block;
-    justify-content: center;
-    margin: 20%;
-    margin-top: 10px;
-}
+    .projetos2 {
+        display: inline-block;
+        justify-content: center;
+        margin: 10%;
+        margin-top: -60px;
+    }
 
-.projetos1 img {
-    height: auto;
-    width: 110vh;
-    padding: 20px;
-}
+    .projetos2 img {
+        height: auto;
+        width: 70vh;
+        padding: 20px;
+    }
 
-.projetos1 img:hover {
-    transform: scale(1.01);
-}
+    /* PARTE 04 */
+    .parte4 {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 30px 0px;
+        background-color: #FF7B89;
+        flex-direction: column;
+    }
 
-.projetos2 {
-    display: inline-block;
-    justify-content: center;
-    margin: 20%;
-    margin-top: -200px;
-}
+    .certificados h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 0px 19%;
+        color: #F6EEE1;
+        margin-left: 120px;
+    }
 
-.projetos2 img {
-    height: auto;
-    width: 110vh;
-    padding: 20px;
-}
+    .certificados {
+        position: relative;
+    }
 
-.projetos2 img:hover {
-    transform: scale(1.01);
-}
+    .certificados img {
+        height: auto;
+        width: 70%;
+        padding: 30px;
+        margin-left: 105px;
+    }
 
-/* PARTE 04 */
-.parte4 {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 30px 0px;
-    background-color: #FF7B89;
-}
+    .certificados .pastas img {
+        position: absolute;
+        height: auto;
+        width: 23%;
+    }
 
-.certificados h1 {
-    font-weight: 500;
-    font-size: 30px;
-    margin-top: 20px;
-    padding: 0px 19%;
-    color: #F6EEE1;
-    margin-left: 10px;
-}
+    .pastas #certfCLOUD {
+        top: 140px;
+        left: 35px;
+    }
 
-.certificados{
-    position: relative;
-}
+    .pastas #certfAWS {
+        top: 140px;
+        left: 170px;
+    }
 
-.certificados img{
-    height: auto;
-    width: 70%;
-    padding: 30px;
-    margin-left: 10px;
-}
+    .pastas #certfCISCO {
+        top: 140px;
+        left: 305px;
+    }
 
-.certificados .pastas img{
-    position: absolute;
-    height: auto;
-    width: 23%;
-}
+    .pastas #certfSENAI {
+        top: 260px;
+        left: 35px;
+    }
 
-.certificados .pastas img:hover{
-    transform: scale(1.05);
-}
+    .contato {
+        background-color: #FBB620;
+        width: 50vh;
+        height: 45vh;
+        margin-top: 40px;
+        margin-left: 160px;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-top-right-radius: 100%;
+        /* border-bottom-right-radius: 100%; */
+        position: relative;
+    }
 
-.pastas #certfCLOUD{
-    top: 140px;
-    left: 20px;
-}
+    .contato h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
 
-.pastas #certfAWS{
-    top: 140px;
-    left: 155px;
-}
+    .contato .icons img {
+        position: absolute;
+        height: auto;
+        width: 7%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
 
-.pastas #certfCISCO{
-    top: 140px;
-    left: 290px;
-}
+    .icons #email {
+        top: 100px;
+        left: 100px;
+    }
 
-.pastas #certfSENAI{
-    top: 260px;
-    left: 20px;
-}
+    .icons #whatsapp {
+        top: 137px;
+        left: 95px;
+        width: 10%;
+    }
 
-.contato {
-    background-color: #FBB620;
-    width: 75vh;
-    height: 65vh;
-    margin-top: 80px;
-    margin-left: -100px;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    position: relative;
-}
+    .icons #insta {
+        top: 185px;
+        left: 100px;
+    }
 
-.contato h1{
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 30px;
-    margin-left: 120px;
-    margin-top: 40px;
-}
+    .icons #linkedin {
+        top: 230px;
+        left: 100px;
+    }
 
-.contato .icons img{
-    position: absolute;
-    height: auto;
-    width: 7%;
-}
+    .icons #github {
+        top: 275px;
+        left: 99px;
+        width: 8%;
+    }
 
-.contato .icons img:hover{
-    transform: scale(1.1);
-}
+    .icons #emailRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 120px;
+        left: 140px;
+        font-size: 18px;
+    }
 
-.icons #email{
-    top: 100px;
-    left: 100px;
-}
+    .icons #whatsappRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 162px;
+        left: 140px;
+        font-size: 18px;
+    }
 
-.icons #whatsapp{
-    top: 137px;
-    left: 95px;
-    width: 10%;
-}
+    .icons #instaRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 209px;
+        left: 140px;
+        font-size: 18px;
+    }
 
-.icons #insta{
-    top: 185px;
-    left: 100px;
-}
+    .icons #linkedinRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 255px;
+        left: 140px;
+        font-size: 18px;
+    }
 
-.icons #linkedin{
-    top: 230px;
-    left: 100px;
-}
+    .icons #githubRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 302px;
+        left: 142px;
+        font-size: 18px;
+    }
 
-.icons #github{
-    top: 275px;
-    left: 99px;
-    width: 8%;
-}
-
-.icons #emailRAFA{
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    top: 100px;
-    left: 140px;
-    font-size: 18px;
-}
-
-.icons #whatsappRAFA{
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    top: 140px;
-    left: 140px;
-    font-size: 18px;
-}
-
-.icons #instaRAFA{
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    top: 187px;
-    left: 140px;
-    font-size: 18px;
-}
-
-.icons #linkedinRAFA{
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    top: 233px;
-    left: 140px;
-    font-size: 18px;
-}
-
-.icons #githubRAFA{
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    top: 280px;
-    left: 142px;
-    font-size: 18px;
-}
-
-/* FOOTER */
-footer{
-    background-color: #1E1E1E;
-    color: #DBD1BD;
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 500;
-    height: auto;
-    justify-content: center;
-    padding: 1rem 0;
-    text-align: center;
-    width: 100%;
-}
 }
 
 /* PARA CELULAR (iPhone XR) */
-@media (max-width: 414px)
-{
-    
-}
+@media (max-width: 414px) {}
