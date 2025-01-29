@@ -1,0 +1,368 @@
+/* PARA TABLET (vertical) */
+@media (max-width: 768px) {
+
+    /* PARTE 01 */
+    section.parte1 {
+        padding: 70px 4%;
+    }
+
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    .parte1 h1 {
+        color: black;
+        font-size: 46px;
+        font-weight: 800;
+        margin-top: -40px;
+    }
+
+    .parte1 h2 {
+        color: #EE5765;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .topo p {
+        color: black;
+        margin: 20px 0;
+        font-weight: 440;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .curriculo button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #FBB620;
+        border: 0;
+        cursor: pointer;
+        transition: .2s;
+        height: 55px;
+    }
+
+    .rafita img {
+        margin: 0px 0;
+        width: 460px;
+        left: -30px;
+        height: auto;
+        position: relative;
+        animation: flutuar 2s ease-in-out infinite alternate;
+    }
+
+    /* PARTE 02 */
+    .parte2 {
+        display: inline-block;
+        justify-content: center;
+        align-items: flex-start;
+        /* Alinha no topo */
+        padding: 80px 0px;
+        /* Adiciona um padding para melhor visualização */
+        background-color: #1E1E1E;
+        width: 768px;
+    }
+
+    .habilidades {
+        width: 65%;
+        height: 485px;
+        background-color: #FBB620;
+        box-shadow: 14px 14px 0 #9c6c05;
+        margin-left: 120px;
+    }
+
+    .habilidades h1 {
+        font-weight: 450;
+        font-size: 30px;
+        margin-top: 0px;
+        padding: 22px 28%;
+    }
+
+    .habilidades ul li {
+        padding: 6px 10%;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    /* CARROSEL */
+    .ferramentas {
+        width: 60%;
+        height: 170px;
+        padding: 10px 0%;
+        margin: 40px;
+    }
+
+    .ferramentas h1 {
+        font-weight: 450;
+        font-size: 30px;
+        padding: 40px 47%;
+        margin-top: -30px;
+        color: #DBD1BD;
+    }
+
+    .carousel-container {
+        width: 100%;
+        /* O carrossel ocupa toda a largura disponível para ele */
+        height: 150px;
+        /* Define uma altura fixa para o carrossel */
+        overflow: hidden;
+        position: relative;
+        margin-top: 0px;
+        /* Adiciona uma margem superior */
+        left: 100px;
+
+    }
+
+
+    .carousel-items {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 435%;
+        /* 3x a largura do contêiner para 3 slides.  Ajuste conforme necessário.*/
+    }
+
+    .carousel-item {
+        width: calc(100% / 3);
+        /* Cada item ocupa 1/3 da largura do carrossel. Ajuste o denominador de acordo com a quantidade de slides.*/
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* Para empilhar imagem e legenda */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* Centraliza o texto da legenda */
+    }
+
+    .carousel-item img {
+        width: 40%;
+        /* Impede que a imagem ultrapasse o tamanho do item */
+        height: auto;
+        margin-bottom: 10px;
+        /* Espaço entre a imagem e a legenda */
+    }
+
+
+    .carousel-item p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #DBD1BD;
+    }
+
+    .carousel-control {
+        position: absolute;
+        top: 0%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .carousel-control:hover {
+        transform: scale(1.2);
+    }
+
+    button #esquerda {
+        height: auto;
+        width: 3.4vh;
+        margin-top: 5px;
+    }
+
+    button #direita {
+        height: auto;
+        width: 4vh;
+    }
+
+    .prev {
+        left: 5px;
+    }
+
+    .next {
+        right: 5px;
+    }
+
+    /* PARTE 03 */
+    .projetos1 {
+        display: inline-block;
+        justify-content: center;
+        margin: 10%;
+        margin-top: 10px;
+    }
+
+    .projetos1 img {
+        height: auto;
+        width: 70vh;
+        padding: 20px;
+    }
+
+    .projetos2 {
+        display: inline-block;
+        justify-content: center;
+        margin: 10%;
+        margin-top: -60px;
+    }
+
+    .projetos2 img {
+        height: auto;
+        width: 70vh;
+        padding: 20px;
+    }
+
+    /* PARTE 04 */
+    .parte4 {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 30px 0px;
+        background-color: #FF7B89;
+        flex-direction: column;
+    }
+
+    .certificados h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 0px 19%;
+        color: #F6EEE1;
+        margin-left: 120px;
+    }
+
+    .certificados {
+        position: relative;
+    }
+
+    .certificados img {
+        height: auto;
+        width: 70%;
+        padding: 30px;
+        margin-left: 105px;
+    }
+
+    .certificados .pastas img {
+        position: absolute;
+        height: auto;
+        width: 23%;
+    }
+
+    .pastas #certfCLOUD {
+        top: 140px;
+        left: 35px;
+    }
+
+    .pastas #certfAWS {
+        top: 140px;
+        left: 170px;
+    }
+
+    .pastas #certfCISCO {
+        top: 140px;
+        left: 305px;
+    }
+
+    .pastas #certfSENAI {
+        top: 260px;
+        left: 35px;
+    }
+
+    .contato {
+        background-color: #FBB620;
+        width: 50vh;
+        height: 45vh;
+        margin-top: 40px;
+        margin-left: 160px;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-top-right-radius: 100%;
+        /* border-bottom-right-radius: 100%; */
+        position: relative;
+    }
+
+    .contato h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .contato .icons img {
+        position: absolute;
+        height: auto;
+        width: 7%;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+
+    .icons #email {
+        top: 100px;
+        left: 100px;
+    }
+
+    .icons #whatsapp {
+        top: 137px;
+        left: 95px;
+        width: 10%;
+    }
+
+    .icons #insta {
+        top: 185px;
+        left: 100px;
+    }
+
+    .icons #linkedin {
+        top: 230px;
+        left: 100px;
+    }
+
+    .icons #github {
+        top: 275px;
+        left: 99px;
+        width: 8%;
+    }
+
+    .icons #emailRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 120px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #whatsappRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 162px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #instaRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 209px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #linkedinRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 255px;
+        left: 140px;
+        font-size: 18px;
+    }
+
+    .icons #githubRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 302px;
+        left: 142px;
+        font-size: 18px;
+    }
+
+}

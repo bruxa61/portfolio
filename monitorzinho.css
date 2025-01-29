@@ -1,0 +1,133 @@
+/* MEU MONITORZINHO */
+@media (max-width: 1400px) {
+    section.parte1 {
+        padding: 160px 4%;
+    }
+
+    .habilidades h1 {
+        font-weight: 450;
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 20px 27%;
+    }
+
+    .ferramentas h1 {
+        font-weight: 450;
+        font-size: 30px;
+        padding: 40px 33%;
+        margin-top: 40px;
+        color: #DBD1BD;
+    }
+
+    .certificados h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 0px 27%;
+        color: #F6EEE1;
+        margin-left: 110px;
+    }
+
+    .contato {
+        background-color: #FBB620;
+        width: 105vh;
+        height: 75vh;
+        margin-top: 80px;
+        margin-left: 100px;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        position: relative;
+    }
+
+    .pastas #certfCLOUD {
+        top: 170px;
+        left: 30px;
+    }
+
+    .pastas #certfAWS {
+        top: 170px;
+        left: 220px;
+    }
+
+    .pastas #certfCISCO {
+        top: 170px;
+        left: 410px;
+    }
+
+    .pastas #certfSENAI {
+        top: 330px;
+        left: 30px;
+    }
+
+    .icons #email {
+        top: 110px;
+        left: 140px;
+    }
+
+    .icons #whatsapp {
+        top: 165px;
+        left: 132px;
+        width: 10%;
+    }
+
+    .icons #insta {
+        top: 230px;
+        left: 140px;
+    }
+
+    .icons #linkedin {
+        top: 295px;
+        left: 140px;
+    }
+
+    .icons #github {
+        top: 355px;
+        left: 137px;
+        width: 8%;
+    }
+
+    .icons #emailRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 115px;
+        left: 195px;
+        font-size: 20px;
+    }
+
+    .icons #whatsappRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 175px;
+        left: 195px;
+        font-size: 20px;
+    }
+
+    .icons #instaRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 238px;
+        left: 195px;
+        font-size: 20px;
+    }
+
+    .icons #linkedinRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 303px;
+        left: 195px;
+        font-size: 20px;
+    }
+
+    .icons #githubRAFA {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        top: 366px;
+        left: 195px;
+        font-size: 20px;
+    }
+}
