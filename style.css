@@ -83,6 +83,65 @@ header .btn-contato button:hover {
     margin-right: 250px;
 }
 
+/* MENU HAMBURGUER */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: #DBD1BD;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.menu-mobile {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #1E1E1E;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.menu-mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-mobile li {
+    padding: 10px 0;
+}
+
+.menu-mobile a {
+    color: #DBD1BD;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-mobile.active {
+    display: block;
+}
+
+/* Esconde o menu desktop em telas menores */
+.menu-desktop {
+    display: block;
+}
+
+
 /* PARTE 01 */
 section.parte1 {
     padding: 240px 4%;
