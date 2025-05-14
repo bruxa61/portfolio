@@ -4,7 +4,11 @@ Bem-vindo ao meu portfólio! Aqui você pode conhecer um pouco mais sobre mim e 
 
 🔗 **Acesse aqui:** [bruxa61.github.io/portfolio](https://bruxa61.github.io/portfolio/)
 
-![Capa do Portfólio](https://via.placeholder.com/1000x400.png?text=Meu+Portf%C3%B3lio) 
+---
+
+<img src="img/Capa.png" alt="Exemplo imagem">
+
+---
 
 ## 📌 Sobre o Portfólio
 
