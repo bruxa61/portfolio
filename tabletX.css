@@ -1,10 +1,8 @@
 /* Tablets (até 1023px) */
-@media (max-width: 1023px) {
+@media (max-width: 1199px) {
     /* CABEÇALHO */
-
-
     header .btn-contato button {
-        padding: 9px 25px;
+        padding: 10px 25px;
         font-size: 18px;
     }
 
@@ -195,9 +193,6 @@
 
     /* PARTE 03 */
     .parte3 .TITULO {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
         padding: 30px 0%;
     }
 
@@ -210,14 +205,14 @@
     .projetos1 {
         display: inline-block;
         justify-content: center;
-        margin: 20%;
+        margin: 10%;
         margin-top: 10px;
     }
 
     .projetos1 img {
         height: auto;
-        width: 110vh;
-        padding: 20px;
+        width: 80vw;
+        padding: 30px;
     }
 
     .projetos1 img:hover {
@@ -227,27 +222,24 @@
     .projetos2 {
         display: inline-block;
         justify-content: center;
-        margin: 20%;
-        margin-top: -200px;
+        margin: 10%;
+        margin-top: -100px;
     }
 
     .projetos2 img {
         height: auto;
-        width: 110vh;
-        padding: 20px;
+        width: 80vw;
+        padding: 30px;
     }
 
     .projetos2 img:hover {
         transform: scale(1.01);
     }
 
-    /* PARTE 04 */
+     /* PARTE 04 */
     .parte4 {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
         padding: 30px 0px;
-        background-color: #FF7B89;
+        flex-direction: column;
     }
 
     .certificados h1 {
@@ -255,8 +247,7 @@
         font-size: 30px;
         margin-top: 20px;
         padding: 0px 19%;
-        color: #F6EEE1;
-        margin-left: 10px;
+        margin-left: 50%;
     }
 
     .certificados {
@@ -265,49 +256,45 @@
 
     .certificados img {
         height: auto;
-        width: 70%;
+        width: 110%;
         padding: 30px;
-        margin-left: 10px;
+        margin-left: 25%;
     }
 
     .certificados .pastas img {
         position: absolute;
         height: auto;
-        width: 23%;
-    }
-
-    .certificados .pastas img:hover {
-        transform: scale(1.05);
+        width: 35%;
     }
 
     .pastas #certfCLOUD {
-        top: 140px;
-        left: 20px;
+        top: 30%;
+        left: 5%;
     }
 
     .pastas #certfAWS {
-        top: 140px;
-        left: 155px;
+        top: 30%;
+        left: 35%;
     }
 
     .pastas #certfCISCO {
-        top: 140px;
-        left: 290px;
+        top: 30%;
+        left: 65%;
     }
 
     .pastas #certfSENAI {
-        top: 260px;
-        left: 20px;
+        top: 60%;
+        left: 5%;
     }
 
     .contato {
-        background-color: #FBB620;
-        width: 75vh;
-        height: 65vh;
-        margin-top: 80px;
-        margin-left: -100px;
-        border-top-left-radius: 50%;
-        border-bottom-left-radius: 50%;
+        width: 45vw;
+        height: 30vh;
+        margin-top: 10px;
+        margin-left: 27%;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-top-right-radius: 100%;
         position: relative;
     }
 
@@ -316,44 +303,42 @@
         justify-content: center;
         font-weight: 500;
         font-size: 30px;
-        margin-left: 120px;
-        margin-top: 40px;
+        margin-left: 0px;
+        margin-top: 10%;
     }
 
     .contato .icons img {
         position: absolute;
         height: auto;
         width: 7%;
-    }
-
-    .contato .icons img:hover {
-        transform: scale(1.1);
+        margin-left: -10px;
+        margin-top: 20px;
     }
 
     .icons #email {
-        top: 100px;
-        left: 100px;
+        top: 70px;
+        left: 80px;
     }
 
     .icons #whatsapp {
-        top: 137px;
-        left: 95px;
+        top: 107px;
+        left: 75px;
         width: 10%;
     }
 
     .icons #insta {
-        top: 185px;
-        left: 100px;
+        top: 155px;
+        left: 80px;
     }
 
     .icons #linkedin {
-        top: 230px;
-        left: 100px;
+        top: 200px;
+        left: 80px;
     }
 
     .icons #github {
-        top: 275px;
-        left: 99px;
+        top: 245px;
+        left: 80px;
         width: 8%;
     }
 
@@ -361,8 +346,8 @@
         position: absolute;
         text-decoration: none;
         color: black;
-        top: 100px;
-        left: 140px;
+        top: 90px;
+        left: 110px;
         font-size: 18px;
     }
 
@@ -370,8 +355,8 @@
         position: absolute;
         text-decoration: none;
         color: black;
-        top: 140px;
-        left: 140px;
+        top: 132px;
+        left: 110px;
         font-size: 18px;
     }
 
@@ -379,8 +364,8 @@
         position: absolute;
         text-decoration: none;
         color: black;
-        top: 187px;
-        left: 140px;
+        top: 176px;
+        left: 110px;
         font-size: 18px;
     }
 
@@ -388,8 +373,8 @@
         position: absolute;
         text-decoration: none;
         color: black;
-        top: 233px;
-        left: 140px;
+        top: 222px;
+        left: 110px;
         font-size: 18px;
     }
 
@@ -397,22 +382,8 @@
         position: absolute;
         text-decoration: none;
         color: black;
-        top: 280px;
-        left: 142px;
+        top: 270px;
+        left: 112px;
         font-size: 18px;
-    }
-
-    /* FOOTER */
-    footer {
-        background-color: #1E1E1E;
-        color: #DBD1BD;
-        display: flex;
-        flex-wrap: wrap;
-        font-weight: 500;
-        height: auto;
-        justify-content: center;
-        padding: 1rem 0;
-        text-align: center;
-        width: 100%;
     }
 }
